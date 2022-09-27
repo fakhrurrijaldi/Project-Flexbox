@@ -1,0 +1,65 @@
+html,
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.65;
+	background-color: #7d5a50;
+	padding-bottom: 1000px;
+}
+
+/* Project 1 */
+.container-satu {
+	width: 800px;
+	margin: 50px auto;
+	background-color: #a07855ff;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+}
+
+.kolom-utama {
+	flex: 3;
+	order: 2;
+}
+
+.sidebar-satu {
+	flex: 1;
+	order: 1;
+}
+
+.sidebar-dua {
+	flex: 1;
+	order: 3;
+}
+/* Akhir Project 1 */
+
+/* Project 2 */
+.container-dua {
+	width: 800px;
+	margin: 50px auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.layanan {
+	width: 30%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.layanan-satu {
+	background-color: #b4846c;
+	flex: 1;
+}
+.layanan-dua {
+	background-color: #e5b299;
+	flex: 1;
+}
+.layanan-tiga {
+	background-color: #fcdec0;
+	flex: 1;
+}
